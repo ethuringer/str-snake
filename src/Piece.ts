@@ -117,7 +117,7 @@ export default class Piece implements IPiece {
    * Ha nem, akkor akkor tér vissza true -val, ha a this.x egyenlő a node.x -el 
    * és a this.y egyenlő a node.y -al.
    */
-  isCollidingWith(node: Piece = null): boolean {
+  isCollidingWith(node: Piece | null = null): boolean {
     if (node !== null && this.x === node.x && this.y === node.y) {
       return true;
     } else {

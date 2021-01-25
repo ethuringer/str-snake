@@ -14,5 +14,5 @@ export enum keys {
 export const SIZE = 40;
 export const LENGTH = 6;
 export const MARGIN = 60;
-export const SLOWEST = 250;
-export const FASTEST = 0;
+export const SLOWEST = 0;
+export const FASTEST = 250;
